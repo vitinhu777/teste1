@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(73, 41, 104);
+}
+
+.container{
+    background-color: rgba(228, 228, 228, 0.575);
+    border: 1px solid white;
+    /* min-height: 400px; */
+    width: 500px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 100px;
+    gap: 15px;
+    
+}
+
+
+
+.temperatura{
+    width: 100%;
+    /* height: 200px; */
+    /* background-color: grey; */
+    margin: 0 auto;
+}
+
+.unidades{
+    width: 200px;
+    height: 22px;
+}
+
+.container h1{
+    width: 100%;
+    text-align: center;
+    /* margin-bottom: 30px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+
+.campo{
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    /* background-color: green; */
+}
+
+
+
+.digite{
+    width: 100%;
+    /* background-color: aliceblue; */
+    font-size: 30px;
+    text-align: center;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.res{
+    background-color: rgb(187, 187, 187);
+}
+
+
+
+select{
+    height: 40px;
+    
+}
+
+.enviar{
+    margin-top: -10px;
+    height: 50px;
+    width: 100%;
+}
+
+
+
+
+.formulas{
+    /* background-color: aqua; */
+    width: 100%;
+    display: none;
+    flex-direction: column;
+  }
+
+
+
+
+
+
+
+
